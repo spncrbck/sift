@@ -69,7 +69,10 @@ form.addEventListener('submit', async e => {
   }
 
   try {
-    const res = await fetch('/convert', { method: 'POST', body: formData });
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), 120000); // 2 minute timeout
+    const res = await fetch('/convert', { method: 'POST', body: formData, signal: controller.signal });
+    clearTimeout(timeout);
     if (!res.ok) {
       const data = await res.json().catch(() => ({}));
       showError(data.detail || `Error ${res.status}`);
@@ -85,7 +88,11 @@ form.addEventListener('submit', async e => {
     previewLink.href = url;
     showResult();
   } catch (err) {
-    showError('Something went wrong. Please try again.');
+    if (err.name === 'AbortError') {
+      showError('Request timed out after 2 minutes. The server might be slow or OCR is taking too long.');
+    } else {
+      showError('Something went wrong. Please try again.');
+    }
   } finally {
     setLoading(false);
   }

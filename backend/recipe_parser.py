@@ -48,8 +48,19 @@ INGREDIENT_RE = re.compile(
 
 
 def extract_text_from_image(image_bytes: bytes) -> str:
-    img = optimize_for_ocr(image_bytes)
-    return pytesseract.image_to_string(img, lang="eng", config="--psm 6")
+    import logging
+    logger = logging.getLogger(__name__)
+    try:
+        logger.info("Optimizing image for OCR...")
+        img = optimize_for_ocr(image_bytes)
+        logger.info(f"Image optimized: {img.size}")
+        logger.info("Running Tesseract OCR...")
+        text = pytesseract.image_to_string(img, lang="eng", config="--psm 6")
+        logger.info(f"OCR returned {len(text)} characters")
+        return text
+    except Exception as e:
+        logger.error(f"OCR failed: {e}", exc_info=True)
+        raise
 
 
 def extract_text_from_pdf(pdf_bytes: bytes) -> str:
