@@ -55,7 +55,9 @@ def extract_text_from_image(image_bytes: bytes) -> str:
         img = optimize_for_ocr(image_bytes)
         logger.info(f"Image optimized: {img.size}")
         logger.info("Running Tesseract OCR...")
-        text = pytesseract.image_to_string(img, lang="eng", config="--psm 6")
+        # PSM 3 = fully automatic page segmentation (handles columns/mixed layouts)
+        # OEM 1 = LSTM engine only (most accurate)
+        text = pytesseract.image_to_string(img, lang="eng", config="--psm 3 --oem 1")
         logger.info(f"OCR returned {len(text)} characters")
         return text
     except Exception as e:
