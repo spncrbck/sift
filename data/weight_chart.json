@@ -1,98 +1,1606 @@
 {
-  "all-purpose flour": { "cup": 120, "tablespoon": 7.5, "teaspoon": 2.5 },
-  "bread flour": { "cup": 120, "tablespoon": 7.5, "teaspoon": 2.5 },
-  "whole wheat flour": { "cup": 113, "tablespoon": 7.1, "teaspoon": 2.4 },
-  "cake flour": { "cup": 96, "tablespoon": 6.0, "teaspoon": 2.0 },
-  "almond flour": { "cup": 96, "tablespoon": 6.0, "teaspoon": 2.0 },
-  "coconut flour": { "cup": 128, "tablespoon": 8.0, "teaspoon": 2.7 },
-  "rye flour": { "cup": 102, "tablespoon": 6.4, "teaspoon": 2.1 },
-  "oat flour": { "cup": 92, "tablespoon": 5.75, "teaspoon": 1.9 },
-  "flour": { "cup": 120, "tablespoon": 7.5, "teaspoon": 2.5 },
-  "granulated sugar": { "cup": 198, "tablespoon": 12.5, "teaspoon": 4.2 },
-  "white sugar": { "cup": 198, "tablespoon": 12.5, "teaspoon": 4.2 },
-  "sugar": { "cup": 198, "tablespoon": 12.5, "teaspoon": 4.2 },
-  "brown sugar": { "cup": 213, "tablespoon": 13.5, "teaspoon": 4.5 },
-  "dark brown sugar": { "cup": 213, "tablespoon": 13.5, "teaspoon": 4.5 },
-  "light brown sugar": { "cup": 200, "tablespoon": 12.5, "teaspoon": 4.2 },
-  "powdered sugar": { "cup": 113, "tablespoon": 7.1, "teaspoon": 2.4 },
-  "confectioners sugar": { "cup": 113, "tablespoon": 7.1, "teaspoon": 2.4 },
-  "raw sugar": { "cup": 200, "tablespoon": 12.5, "teaspoon": 4.2 },
-  "honey": { "cup": 340, "tablespoon": 21.3, "teaspoon": 7.1 },
-  "maple syrup": { "cup": 312, "tablespoon": 19.5, "teaspoon": 6.5 },
-  "molasses": { "cup": 312, "tablespoon": 19.5, "teaspoon": 6.5 },
-  "corn syrup": { "cup": 312, "tablespoon": 19.5, "teaspoon": 6.5 },
-  "agave": { "cup": 336, "tablespoon": 21.0, "teaspoon": 7.0 },
-  "butter": { "cup": 227, "tablespoon": 14.2, "teaspoon": 4.7 },
-  "unsalted butter": { "cup": 227, "tablespoon": 14.2, "teaspoon": 4.7 },
-  "salted butter": { "cup": 227, "tablespoon": 14.2, "teaspoon": 4.7 },
-  "coconut oil": { "cup": 218, "tablespoon": 13.6, "teaspoon": 4.5 },
-  "vegetable oil": { "cup": 218, "tablespoon": 13.6, "teaspoon": 4.5 },
-  "olive oil": { "cup": 216, "tablespoon": 13.5, "teaspoon": 4.5 },
-  "canola oil": { "cup": 218, "tablespoon": 13.6, "teaspoon": 4.5 },
-  "oil": { "cup": 218, "tablespoon": 13.6, "teaspoon": 4.5 },
-  "milk": { "cup": 227, "tablespoon": 14.2, "teaspoon": 4.7 },
-  "whole milk": { "cup": 227, "tablespoon": 14.2, "teaspoon": 4.7 },
-  "skim milk": { "cup": 245, "tablespoon": 15.3, "teaspoon": 5.1 },
-  "heavy cream": { "cup": 227, "tablespoon": 14.2, "teaspoon": 4.7 },
-  "heavy whipping cream": { "cup": 227, "tablespoon": 14.2, "teaspoon": 4.7 },
-  "whipping cream": { "cup": 227, "tablespoon": 14.2, "teaspoon": 4.7 },
-  "half and half": { "cup": 242, "tablespoon": 15.1, "teaspoon": 5.0 },
-  "buttermilk": { "cup": 227, "tablespoon": 14.2, "teaspoon": 4.7 },
-  "sour cream": { "cup": 227, "tablespoon": 14.2, "teaspoon": 4.7 },
-  "yogurt": { "cup": 227, "tablespoon": 14.2, "teaspoon": 4.7 },
-  "greek yogurt": { "cup": 227, "tablespoon": 14.2, "teaspoon": 4.7 },
-  "water": { "cup": 227, "tablespoon": 14.2, "teaspoon": 4.7 },
-  "cream cheese": { "cup": 226, "tablespoon": 14.1, "teaspoon": 4.7 },
-  "ricotta": { "cup": 246, "tablespoon": 15.4, "teaspoon": 5.1 },
-  "evaporated milk": { "cup": 255, "tablespoon": 15.9, "teaspoon": 5.3 },
-  "sweetened condensed milk": { "cup": 306, "tablespoon": 19.1, "teaspoon": 6.4 },
-  "pumpkin puree": { "cup": 245, "tablespoon": 15.3, "teaspoon": 5.1 },
-  "applesauce": { "cup": 255, "tablespoon": 15.9, "teaspoon": 5.3 },
-  "peanut butter": { "cup": 258, "tablespoon": 16.1, "teaspoon": 5.4 },
-  "almond butter": { "cup": 258, "tablespoon": 16.1, "teaspoon": 5.4 },
-  "tahini": { "cup": 240, "tablespoon": 15.0, "teaspoon": 5.0 },
-  "lemon juice": { "cup": 227, "tablespoon": 14.2, "teaspoon": 4.7 },
-  "orange juice": { "cup": 242, "tablespoon": 15.1, "teaspoon": 5.0 },
-  "vinegar": { "cup": 227, "tablespoon": 14.2, "teaspoon": 4.7 },
-  "apple cider vinegar": { "cup": 224, "tablespoon": 14.0, "teaspoon": 4.7 },
-  "baking powder": { "cup": 192, "tablespoon": 12.0, "teaspoon": 4.0 },
-  "baking soda": { "cup": 288, "tablespoon": 18.0, "teaspoon": 6.0 },
-  "salt": { "cup": 288, "tablespoon": 18.0, "teaspoon": 6.0 },
-  "table salt": { "cup": 288, "tablespoon": 18.0, "teaspoon": 6.0 },
-  "kosher salt": { "cup": 144, "tablespoon": 9.0, "teaspoon": 3.0 },
-  "sea salt": { "cup": 288, "tablespoon": 18.0, "teaspoon": 6.0 },
-  "cocoa powder": { "cup": 85, "tablespoon": 5.3, "teaspoon": 1.8 },
-  "dutch cocoa": { "cup": 85, "tablespoon": 5.3, "teaspoon": 1.8 },
-  "dutch-process cocoa": { "cup": 85, "tablespoon": 5.3, "teaspoon": 1.8 },
-  "cornstarch": { "cup": 128, "tablespoon": 8.0, "teaspoon": 2.7 },
-  "cornmeal": { "cup": 138, "tablespoon": 8.6, "teaspoon": 2.9 },
-  "cream of tartar": { "cup": 144, "tablespoon": 9.0, "teaspoon": 3.0 },
-  "vanilla extract": { "cup": 227, "tablespoon": 14.2, "teaspoon": 4.7 },
-  "cinnamon": { "cup": 123, "tablespoon": 7.7, "teaspoon": 2.6 },
-  "nutmeg": { "cup": 115, "tablespoon": 7.2, "teaspoon": 2.4 },
-  "ginger": { "cup": 86, "tablespoon": 5.4, "teaspoon": 1.8 },
-  "espresso powder": { "cup": 96, "tablespoon": 6.0, "teaspoon": 2.0 },
-  "gelatin": { "cup": 128, "tablespoon": 8.0, "teaspoon": 2.7 },
-  "active dry yeast": { "cup": 144, "tablespoon": 9.0, "teaspoon": 3.0 },
-  "instant yeast": { "cup": 144, "tablespoon": 9.0, "teaspoon": 3.0 },
-  "yeast": { "cup": 144, "tablespoon": 9.0, "teaspoon": 3.0 },
-  "rolled oats": { "cup": 90, "tablespoon": 5.6, "teaspoon": 1.9 },
-  "quick oats": { "cup": 85, "tablespoon": 5.3, "teaspoon": 1.8 },
-  "oats": { "cup": 90, "tablespoon": 5.6, "teaspoon": 1.9 },
-  "chocolate chips": { "cup": 170, "tablespoon": 10.6, "teaspoon": 3.5 },
-  "mini chocolate chips": { "cup": 170, "tablespoon": 10.6, "teaspoon": 3.5 },
-  "shredded coconut": { "cup": 75, "tablespoon": 4.7, "teaspoon": 1.6 },
-  "coconut flakes": { "cup": 75, "tablespoon": 4.7, "teaspoon": 1.6 },
-  "chopped walnuts": { "cup": 100, "tablespoon": 6.3, "teaspoon": 2.1 },
-  "walnuts": { "cup": 100, "tablespoon": 6.3, "teaspoon": 2.1 },
-  "pecans": { "cup": 99, "tablespoon": 6.2, "teaspoon": 2.1 },
-  "almonds": { "cup": 142, "tablespoon": 8.9, "teaspoon": 3.0 },
-  "raisins": { "cup": 149, "tablespoon": 9.3, "teaspoon": 3.1 },
-  "dried cranberries": { "cup": 113, "tablespoon": 7.1, "teaspoon": 2.4 },
-  "bread crumbs": { "cup": 120, "tablespoon": 7.5, "teaspoon": 2.5 },
-  "panko": { "cup": 80, "tablespoon": 5.0, "teaspoon": 1.7 },
-  "flaxseed": { "cup": 176, "tablespoon": 11.0, "teaspoon": 3.7 },
-  "chia seeds": { "cup": 224, "tablespoon": 14.0, "teaspoon": 4.7 },
-  "sesame seeds": { "cup": 144, "tablespoon": 9.0, "teaspoon": 3.0 },
-  "poppy seeds": { "cup": 144, "tablespoon": 9.0, "teaspoon": 3.0 }
+  "00' pizza flour": {
+    "cup": 116.0,
+    "tablespoon": 7.2,
+    "teaspoon": 2.4
+  },
+  "agave syrup": {
+    "cup": 336.0,
+    "tablespoon": 21.0,
+    "teaspoon": 7.0
+  },
+  "all-purpose baking mix": {
+    "cup": 120.0,
+    "tablespoon": 7.5,
+    "teaspoon": 2.5
+  },
+  "all-purpose flour": {
+    "cup": 120.0,
+    "tablespoon": 7.5,
+    "teaspoon": 2.5
+  },
+  "almond butter": {
+    "cup": 272.0,
+    "tablespoon": 17.0,
+    "teaspoon": 5.7
+  },
+  "almond flour": {
+    "cup": 96.0,
+    "tablespoon": 6.0,
+    "teaspoon": 2.0
+  },
+  "almond meal": {
+    "cup": 84.0,
+    "tablespoon": 5.2,
+    "teaspoon": 1.8
+  },
+  "almond paste (packed)": {
+    "cup": 259.0,
+    "tablespoon": 16.2,
+    "teaspoon": 5.4
+  },
+  "almonds (sliced)": {
+    "cup": 86.0,
+    "tablespoon": 5.4,
+    "teaspoon": 1.8
+  },
+  "almonds (slivered)": {
+    "cup": 114.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "almonds whole (unblanched)": {
+    "cup": 142.0,
+    "tablespoon": 8.9,
+    "teaspoon": 3.0
+  },
+  "amaranth flour": {
+    "cup": 103.0,
+    "tablespoon": 6.4,
+    "teaspoon": 2.1
+  },
+  "apple juice concentrate": {
+    "cup": 280.0,
+    "tablespoon": 17.5,
+    "teaspoon": 5.8
+  },
+  "apples (dried diced)": {
+    "cup": 85.0,
+    "tablespoon": 5.3,
+    "teaspoon": 1.8
+  },
+  "apples (peeled sliced)": {
+    "cup": 113.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "applesauce": {
+    "cup": 255.0,
+    "tablespoon": 15.9,
+    "teaspoon": 5.3
+  },
+  "apricots (dried diced)": {
+    "cup": 128.0,
+    "tablespoon": 8.0,
+    "teaspoon": 2.7
+  },
+  "artisan bread flour": {
+    "cup": 120.0,
+    "tablespoon": 7.5,
+    "teaspoon": 2.5
+  },
+  "artisan bread topping": {
+    "cup": 172.0,
+    "tablespoon": 10.8,
+    "teaspoon": 3.6
+  },
+  "baker's cinnamon filling": {
+    "cup": 152.0,
+    "tablespoon": 9.5,
+    "teaspoon": 3.2
+  },
+  "baker's fruit blend": {
+    "cup": 128.0,
+    "tablespoon": 8.0,
+    "teaspoon": 2.7
+  },
+  "baker's special sugar (superfine/castor sugar)": {
+    "cup": 190.0,
+    "tablespoon": 11.9,
+    "teaspoon": 4.0
+  },
+  "baking powder": {
+    "cup": 192.0,
+    "tablespoon": 12.0,
+    "teaspoon": 4.0
+  },
+  "baking soda": {
+    "cup": 192.0,
+    "tablespoon": 18.0,
+    "teaspoon": 6.0
+  },
+  "baking sugar alternative": {
+    "cup": 170.0,
+    "tablespoon": 10.6,
+    "teaspoon": 3.5
+  },
+  "bananas (mashed)": {
+    "cup": 227.0,
+    "tablespoon": 14.2,
+    "teaspoon": 4.7
+  },
+  "barley (cooked)": {
+    "cup": 215.0,
+    "tablespoon": 13.4,
+    "teaspoon": 4.5
+  },
+  "barley (pearled)": {
+    "cup": 213.0,
+    "tablespoon": 13.3,
+    "teaspoon": 4.4
+  },
+  "barley flakes": {
+    "cup": 92.0,
+    "tablespoon": 5.8,
+    "teaspoon": 1.9
+  },
+  "barley flour": {
+    "cup": 85.0,
+    "tablespoon": 5.3,
+    "teaspoon": 1.8
+  },
+  "barley malt syrup": {
+    "cup": 336.0,
+    "tablespoon": 21.0,
+    "teaspoon": 7.0
+  },
+  "basil pesto": {
+    "cup": 224.0,
+    "tablespoon": 14.0,
+    "teaspoon": 4.7
+  },
+  "bell peppers (fresh)": {
+    "cup": 142.0,
+    "tablespoon": 8.9,
+    "teaspoon": 3.0
+  },
+  "berries (frozen)": {
+    "cup": 142.0,
+    "tablespoon": 8.9,
+    "teaspoon": 3.0
+  },
+  "better cheddar cheese powder": {
+    "cup": 114.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "blueberries (dried)": {
+    "cup": 156.0,
+    "tablespoon": 9.8,
+    "teaspoon": 3.2
+  },
+  "blueberries (fresh or frozen)": {
+    "cup": 155.0,
+    "tablespoon": 9.7,
+    "teaspoon": 3.2
+  },
+  "blueberry juice": {
+    "cup": 241.0,
+    "tablespoon": 15.1,
+    "teaspoon": 5.0
+  },
+  "boiled cider": {
+    "cup": 340.0,
+    "tablespoon": 21.2,
+    "teaspoon": 7.1
+  },
+  "bran cereal": {
+    "cup": 60.0,
+    "tablespoon": 3.8,
+    "teaspoon": 1.2
+  },
+  "bread flour": {
+    "cup": 120.0,
+    "tablespoon": 7.5,
+    "teaspoon": 2.5
+  },
+  "breadcrumbs (dried)": {
+    "cup": 112.0,
+    "tablespoon": 7.0,
+    "teaspoon": 2.3
+  },
+  "breadcrumbs (fresh)": {
+    "cup": 84.0,
+    "tablespoon": 5.2,
+    "teaspoon": 1.8
+  },
+  "breadcrumbs (japanese panko)": {
+    "cup": 50.0,
+    "tablespoon": 3.1,
+    "teaspoon": 1.0
+  },
+  "brown rice (cooked)": {
+    "cup": 170.0,
+    "tablespoon": 10.6,
+    "teaspoon": 3.5
+  },
+  "brown rice flour": {
+    "cup": 128.0,
+    "tablespoon": 8.0,
+    "teaspoon": 2.7
+  },
+  "brown sugar (dark or light packed)": {
+    "cup": 213.0,
+    "tablespoon": 13.3,
+    "teaspoon": 4.4
+  },
+  "buckwheat (whole)": {
+    "cup": 170.0,
+    "tablespoon": 10.6,
+    "teaspoon": 3.5
+  },
+  "buckwheat flour": {
+    "cup": 120.0,
+    "tablespoon": 7.5,
+    "teaspoon": 2.5
+  },
+  "bulgur": {
+    "cup": 152.0,
+    "tablespoon": 9.5,
+    "teaspoon": 3.2
+  },
+  "butter": {
+    "cup": 226.0,
+    "tablespoon": 14.1,
+    "teaspoon": 4.7
+  },
+  "buttermilk": {
+    "cup": 227.0,
+    "tablespoon": 14.2,
+    "teaspoon": 4.7
+  },
+  "buttermilk biscuit flour blend": {
+    "cup": 110.0,
+    "tablespoon": 6.9,
+    "teaspoon": 2.3
+  },
+  "buttermilk powder": {
+    "cup": 144.0,
+    "tablespoon": 9.0,
+    "teaspoon": 3.0
+  },
+  "cacao nibs": {
+    "cup": 120.0,
+    "tablespoon": 7.5,
+    "teaspoon": 2.5
+  },
+  "cake enhancer": {
+    "cup": 112.0,
+    "tablespoon": 7.0,
+    "teaspoon": 2.3
+  },
+  "candied lemon peel": {
+    "cup": 148.0,
+    "tablespoon": 9.2,
+    "teaspoon": 3.1
+  },
+  "candied orange peel": {
+    "cup": 100.0,
+    "tablespoon": 6.2,
+    "teaspoon": 2.1
+  },
+  "caramel (14-16 individual pieces)": {
+    "cup": 284.0,
+    "tablespoon": 17.8,
+    "teaspoon": 5.9
+  },
+  "caramel bits (chopped heath or toffee)": {
+    "cup": 156.0,
+    "tablespoon": 9.8,
+    "teaspoon": 3.2
+  },
+  "caraway seeds": {
+    "cup": 144.0,
+    "tablespoon": 9.0,
+    "teaspoon": 3.0
+  },
+  "carrots (cooked and pureed)": {
+    "cup": 256.0,
+    "tablespoon": 16.0,
+    "teaspoon": 5.3
+  },
+  "carrots (diced)": {
+    "cup": 142.0,
+    "tablespoon": 8.9,
+    "teaspoon": 3.0
+  },
+  "carrots (grated)": {
+    "cup": 99.0,
+    "tablespoon": 6.2,
+    "teaspoon": 2.1
+  },
+  "cashews (chopped)": {
+    "cup": 113.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "cashews (whole)": {
+    "cup": 113.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "celery (diced)": {
+    "cup": 142.0,
+    "tablespoon": 8.9,
+    "teaspoon": 3.0
+  },
+  "cheese (feta)": {
+    "cup": 114.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "cheese (grated cheddar/jack/mozzarella/swiss)": {
+    "cup": 113.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "cheese (grated parmesan)": {
+    "cup": 100.0,
+    "tablespoon": 6.2,
+    "teaspoon": 2.1
+  },
+  "cheese (ricotta)": {
+    "cup": 227.0,
+    "tablespoon": 14.2,
+    "teaspoon": 4.7
+  },
+  "cherries (candied)": {
+    "cup": 200.0,
+    "tablespoon": 12.5,
+    "teaspoon": 4.2
+  },
+  "cherries (dried)": {
+    "cup": 142.0,
+    "tablespoon": 8.9,
+    "teaspoon": 3.0
+  },
+  "cherries (fresh pitted chopped)": {
+    "cup": 160.0,
+    "tablespoon": 10.0,
+    "teaspoon": 3.3
+  },
+  "cherries (frozen)": {
+    "cup": 113.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "cherry concentrate": {
+    "cup": 336.0,
+    "tablespoon": 21.0,
+    "teaspoon": 7.0
+  },
+  "chia seeds": {
+    "cup": 148.0,
+    "tablespoon": 9.2,
+    "teaspoon": 3.1
+  },
+  "chickpea flour": {
+    "cup": 85.0,
+    "tablespoon": 5.3,
+    "teaspoon": 1.8
+  },
+  "chives (fresh)": {
+    "cup": 42.0,
+    "tablespoon": 2.6,
+    "teaspoon": 0.9
+  },
+  "chocolate (chopped)": {
+    "cup": 170.0,
+    "tablespoon": 10.6,
+    "teaspoon": 3.5
+  },
+  "chocolate chips": {
+    "cup": 170.0,
+    "tablespoon": 10.6,
+    "teaspoon": 3.5
+  },
+  "chocolate chunks": {
+    "cup": 170.0,
+    "tablespoon": 10.6,
+    "teaspoon": 3.5
+  },
+  "chocolate mousse mix": {
+    "cup": 112.0,
+    "tablespoon": 7.0,
+    "teaspoon": 2.3
+  },
+  "cinnamon sweet bits": {
+    "cup": 140.0,
+    "tablespoon": 8.8,
+    "teaspoon": 2.9
+  },
+  "cinnamon-sugar": {
+    "cup": 200.0,
+    "tablespoon": 12.5,
+    "teaspoon": 4.2
+  },
+  "climate blend flour": {
+    "cup": 115.0,
+    "tablespoon": 7.2,
+    "teaspoon": 2.4
+  },
+  "cocoa (unsweetened)": {
+    "cup": 84.0,
+    "tablespoon": 5.2,
+    "teaspoon": 1.8
+  },
+  "coconut (sweetened shredded)": {
+    "cup": 85.0,
+    "tablespoon": 5.3,
+    "teaspoon": 1.8
+  },
+  "coconut (toasted)": {
+    "cup": 85.0,
+    "tablespoon": 5.3,
+    "teaspoon": 1.8
+  },
+  "coconut (unsweetened desiccated)": {
+    "cup": 85.0,
+    "tablespoon": 5.3,
+    "teaspoon": 1.8
+  },
+  "coconut (unsweetened large flakes)": {
+    "cup": 60.0,
+    "tablespoon": 3.8,
+    "teaspoon": 1.2
+  },
+  "coconut (unsweetened shredded)": {
+    "cup": 53.0,
+    "tablespoon": 3.3,
+    "teaspoon": 1.1
+  },
+  "coconut cream (unsweetened)": {
+    "cup": 284.0,
+    "tablespoon": 17.8,
+    "teaspoon": 5.9
+  },
+  "coconut flour": {
+    "cup": 128.0,
+    "tablespoon": 8.0,
+    "teaspoon": 2.7
+  },
+  "coconut milk (evaporated)": {
+    "cup": 242.0,
+    "tablespoon": 15.1,
+    "teaspoon": 5.0
+  },
+  "coconut milk powder": {
+    "cup": 114.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "coconut milk canned well shaken": {
+    "cup": 241.0,
+    "tablespoon": 15.1,
+    "teaspoon": 5.0
+  },
+  "coconut oil": {
+    "cup": 226.0,
+    "tablespoon": 14.1,
+    "teaspoon": 4.7
+  },
+  "coconut sugar": {
+    "cup": 154.0,
+    "tablespoon": 9.6,
+    "teaspoon": 3.2
+  },
+  "confectioners' sugar (unsifted)": {
+    "cup": 113.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "cookie butter": {
+    "cup": 288.0,
+    "tablespoon": 18.0,
+    "teaspoon": 6.0
+  },
+  "cookie crumbs": {
+    "cup": 85.0,
+    "tablespoon": 5.3,
+    "teaspoon": 1.8
+  },
+  "corn (fresh or frozen)": {
+    "cup": 152.0,
+    "tablespoon": 9.5,
+    "teaspoon": 3.2
+  },
+  "corn (popped)": {
+    "cup": 5.2,
+    "tablespoon": 0.3,
+    "teaspoon": 0.1
+  },
+  "corn syrup": {
+    "cup": 312.0,
+    "tablespoon": 19.5,
+    "teaspoon": 6.5
+  },
+  "cornmeal (whole)": {
+    "cup": 138.0,
+    "tablespoon": 8.6,
+    "teaspoon": 2.9
+  },
+  "cornmeal (yellow quaker)": {
+    "cup": 156.0,
+    "tablespoon": 9.8,
+    "teaspoon": 3.2
+  },
+  "cornstarch": {
+    "cup": 112.0,
+    "tablespoon": 7.0,
+    "teaspoon": 2.3
+  },
+  "cottage cheese": {
+    "cup": 226.0,
+    "tablespoon": 14.1,
+    "teaspoon": 4.7
+  },
+  "cracked wheat": {
+    "cup": 149.0,
+    "tablespoon": 9.3,
+    "teaspoon": 3.1
+  },
+  "cranberries (dried)": {
+    "cup": 114.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "cranberries (fresh or frozen)": {
+    "cup": 99.0,
+    "tablespoon": 6.2,
+    "teaspoon": 2.1
+  },
+  "cream (heavy/light/half & half)": {
+    "cup": 227.0,
+    "tablespoon": 14.2,
+    "teaspoon": 4.7
+  },
+  "cream cheese": {
+    "cup": 227.0,
+    "tablespoon": 14.2,
+    "teaspoon": 4.7
+  },
+  "cream of coconut": {
+    "cup": 284.0,
+    "tablespoon": 17.8,
+    "teaspoon": 5.9
+  },
+  "creme fraiche": {
+    "cup": 226.0,
+    "tablespoon": 14.1,
+    "teaspoon": 4.7
+  },
+  "currants": {
+    "cup": 142.0,
+    "tablespoon": 8.9,
+    "teaspoon": 3.0
+  },
+  "dates (chopped)": {
+    "cup": 149.0,
+    "tablespoon": 9.3,
+    "teaspoon": 3.1
+  },
+  "demerara sugar": {
+    "cup": 220.0,
+    "tablespoon": 13.8,
+    "teaspoon": 4.6
+  },
+  "dried blueberry powder": {
+    "cup": 112.0,
+    "tablespoon": 7.0,
+    "teaspoon": 2.3
+  },
+  "dried milk (baker's special dry milk)": {
+    "cup": 112.0,
+    "tablespoon": 7.0,
+    "teaspoon": 2.3
+  },
+  "dried nonfat milk (powdered)": {
+    "cup": 112.0,
+    "tablespoon": 7.0,
+    "teaspoon": 2.3
+  },
+  "dried potato flakes (instant mashed potatoes)": {
+    "cup": 86.0,
+    "tablespoon": 5.4,
+    "teaspoon": 1.8
+  },
+  "dried whole milk (powdered)": {
+    "cup": 100.0,
+    "tablespoon": 6.2,
+    "teaspoon": 2.1
+  },
+  "durum flour": {
+    "cup": 124.0,
+    "tablespoon": 7.8,
+    "teaspoon": 2.6
+  },
+  "easy roll dough improver": {
+    "cup": 144.0,
+    "tablespoon": 9.0,
+    "teaspoon": 3.0
+  },
+  "egg (fresh)": {
+    "each": 50.0
+  },
+  "egg white (fresh)": {
+    "each": 32.5
+  },
+  "egg whites (dried)": {
+    "cup": 88.0,
+    "tablespoon": 5.5,
+    "teaspoon": 1.8
+  },
+  "egg yolk (fresh)": {
+    "each": 14.0
+  },
+  "espresso powder": {
+    "cup": 112.0,
+    "tablespoon": 7.0,
+    "teaspoon": 2.3
+  },
+  "everything bagel topping": {
+    "cup": 140.0,
+    "tablespoon": 8.8,
+    "teaspoon": 2.9
+  },
+  "figs (dried chopped)": {
+    "cup": 149.0,
+    "tablespoon": 9.3,
+    "teaspoon": 3.1
+  },
+  "first clear flour": {
+    "cup": 106.0,
+    "tablespoon": 6.6,
+    "teaspoon": 2.2
+  },
+  "flax meal": {
+    "cup": 100.0,
+    "tablespoon": 6.2,
+    "teaspoon": 2.1
+  },
+  "flaxseed": {
+    "cup": 140.0,
+    "tablespoon": 8.8,
+    "teaspoon": 2.9
+  },
+  "formaggio italiano cheese and herb blend": {
+    "cup": 120.0,
+    "tablespoon": 7.5,
+    "teaspoon": 2.5
+  },
+  "french-style flour": {
+    "cup": 120.0,
+    "tablespoon": 7.5,
+    "teaspoon": 2.5
+  },
+  "fruitcake fruit blend": {
+    "cup": 120.0,
+    "tablespoon": 7.5,
+    "teaspoon": 2.5
+  },
+  "garlic (minced)": {
+    "cup": 224.0,
+    "tablespoon": 14.0,
+    "teaspoon": 4.7
+  },
+  "garlic (peeled and sliced)": {
+    "cup": 149.0,
+    "tablespoon": 9.3,
+    "teaspoon": 3.1
+  },
+  "ghee": {
+    "cup": 176.0,
+    "tablespoon": 11.0,
+    "teaspoon": 3.7
+  },
+  "ginger (fresh sliced)": {
+    "cup": 228.0,
+    "tablespoon": 14.2,
+    "teaspoon": 4.8
+  },
+  "gluten-free all-purpose baking mix": {
+    "cup": 120.0,
+    "tablespoon": 7.5,
+    "teaspoon": 2.5
+  },
+  "gluten-free all-purpose flour": {
+    "cup": 156.0,
+    "tablespoon": 9.8,
+    "teaspoon": 3.2
+  },
+  "gluten-free bread flour": {
+    "cup": 120.0,
+    "tablespoon": 7.5,
+    "teaspoon": 2.5
+  },
+  "gluten-free measure for measure flour": {
+    "cup": 120.0,
+    "tablespoon": 7.5,
+    "teaspoon": 2.5
+  },
+  "gluten-free pizza flour": {
+    "cup": 100.0,
+    "tablespoon": 6.2,
+    "teaspoon": 2.1
+  },
+  "gluten-free sourdough starter (made with gf bread flour)": {
+    "cup": 177.5,
+    "tablespoon": 11.1,
+    "teaspoon": 3.7
+  },
+  "gluten-free sourdough starter (made with gf measure for measure flour)": {
+    "cup": 234.0,
+    "tablespoon": 14.6,
+    "teaspoon": 4.9
+  },
+  "glutinous rice flour": {
+    "cup": 120.0,
+    "tablespoon": 7.5,
+    "teaspoon": 2.5
+  },
+  "golden wheat flour": {
+    "cup": 113.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "graham cracker crumbs": {
+    "cup": 100.0,
+    "tablespoon": 6.2,
+    "teaspoon": 2.1
+  },
+  "granola": {
+    "cup": 113.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "grape nuts": {
+    "cup": 114.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "guava paste": {
+    "cup": 400.0,
+    "tablespoon": 25.0,
+    "teaspoon": 8.3
+  },
+  "harvest grains blend": {
+    "cup": 148.0,
+    "tablespoon": 9.2,
+    "teaspoon": 3.1
+  },
+  "hazelnut flour": {
+    "cup": 89.0,
+    "tablespoon": 5.6,
+    "teaspoon": 1.9
+  },
+  "hazelnut praline paste": {
+    "cup": 312.0,
+    "tablespoon": 19.5,
+    "teaspoon": 6.5
+  },
+  "hazelnut spread": {
+    "cup": 320.0,
+    "tablespoon": 20.0,
+    "teaspoon": 6.7
+  },
+  "hazelnuts (whole)": {
+    "cup": 142.0,
+    "tablespoon": 8.9,
+    "teaspoon": 3.0
+  },
+  "hi-maize natural fiber": {
+    "cup": 128.0,
+    "tablespoon": 8.0,
+    "teaspoon": 2.7
+  },
+  "high-gluten flour": {
+    "cup": 120.0,
+    "tablespoon": 7.5,
+    "teaspoon": 2.5
+  },
+  "honey": {
+    "cup": 336.0,
+    "tablespoon": 21.0,
+    "teaspoon": 7.0
+  },
+  "instant clearjel": {
+    "cup": 176.0,
+    "tablespoon": 11.0,
+    "teaspoon": 3.7
+  },
+  "irish-style flour": {
+    "cup": 110.0,
+    "tablespoon": 6.9,
+    "teaspoon": 2.3
+  },
+  "italian herb seasoning": {
+    "cup": 112.0,
+    "tablespoon": 7.0,
+    "teaspoon": 2.3
+  },
+  "italian-style flour": {
+    "cup": 106.0,
+    "tablespoon": 6.6,
+    "teaspoon": 2.2
+  },
+  "jam or preserves": {
+    "cup": 340.0,
+    "tablespoon": 21.2,
+    "teaspoon": 7.1
+  },
+  "jammy bits": {
+    "cup": 184.0,
+    "tablespoon": 11.5,
+    "teaspoon": 3.8
+  },
+  "keto wheat flour": {
+    "cup": 120.0,
+    "tablespoon": 7.5,
+    "teaspoon": 2.5
+  },
+  "keto wheat pizza crust mix": {
+    "cup": 110.0,
+    "tablespoon": 6.9,
+    "teaspoon": 2.3
+  },
+  "key lime juice": {
+    "cup": 227.0,
+    "tablespoon": 14.2,
+    "teaspoon": 4.7
+  },
+  "lard": {
+    "cup": 226.0,
+    "tablespoon": 14.1,
+    "teaspoon": 4.7
+  },
+  "leeks (diced)": {
+    "cup": 92.0,
+    "tablespoon": 5.8,
+    "teaspoon": 1.9
+  },
+  "lemon crumbles": {
+    "cup": 180.0,
+    "tablespoon": 11.2,
+    "teaspoon": 3.8
+  },
+  "lemon curd": {
+    "cup": 226.0,
+    "tablespoon": 14.1,
+    "teaspoon": 4.7
+  },
+  "lemon juice": {
+    "cup": 224.0,
+    "tablespoon": 14.0,
+    "teaspoon": 4.7
+  },
+  "lemon juice powder": {
+    "cup": 144.0,
+    "tablespoon": 9.0,
+    "teaspoon": 3.0
+  },
+  "lime juice powder": {
+    "cup": 144.0,
+    "tablespoon": 9.0,
+    "teaspoon": 3.0
+  },
+  "macadamia nuts (whole)": {
+    "cup": 149.0,
+    "tablespoon": 9.3,
+    "teaspoon": 3.1
+  },
+  "malt syrup": {
+    "cup": 344.0,
+    "tablespoon": 21.5,
+    "teaspoon": 7.2
+  },
+  "malted milk powder": {
+    "cup": 140.0,
+    "tablespoon": 8.8,
+    "teaspoon": 2.9
+  },
+  "malted wheat flakes": {
+    "cup": 128.0,
+    "tablespoon": 8.0,
+    "teaspoon": 2.7
+  },
+  "maple cinnamon french toast sugar": {
+    "cup": 192.0,
+    "tablespoon": 12.0,
+    "teaspoon": 4.0
+  },
+  "maple cream": {
+    "cup": 336.0,
+    "tablespoon": 21.0,
+    "teaspoon": 7.0
+  },
+  "maple sugar": {
+    "cup": 156.0,
+    "tablespoon": 9.8,
+    "teaspoon": 3.2
+  },
+  "maple syrup": {
+    "cup": 312.0,
+    "tablespoon": 19.5,
+    "teaspoon": 6.5
+  },
+  "marshmallow fluff": {
+    "cup": 128.0,
+    "tablespoon": 8.0,
+    "teaspoon": 2.7
+  },
+  "marshmallow spread (homemade)": {
+    "cup": 72.0,
+    "tablespoon": 4.5,
+    "teaspoon": 1.5
+  },
+  "marshmallow spread (store-bought)": {
+    "cup": 123.0,
+    "tablespoon": 7.7,
+    "teaspoon": 2.6
+  },
+  "marshmallows (mini)": {
+    "cup": 43.0,
+    "tablespoon": 2.7,
+    "teaspoon": 0.9
+  },
+  "marzipan": {
+    "cup": 290.0,
+    "tablespoon": 18.1,
+    "teaspoon": 6.0
+  },
+  "masa harina": {
+    "cup": 93.0,
+    "tablespoon": 5.8,
+    "teaspoon": 1.9
+  },
+  "mascarpone cheese": {
+    "cup": 227.0,
+    "tablespoon": 14.2,
+    "teaspoon": 4.7
+  },
+  "mashed potatoes": {
+    "cup": 213.0,
+    "tablespoon": 13.3,
+    "teaspoon": 4.4
+  },
+  "mashed sweet potatoes": {
+    "cup": 240.0,
+    "tablespoon": 15.0,
+    "teaspoon": 5.0
+  },
+  "matcha powder": {
+    "cup": 96.0,
+    "tablespoon": 6.0,
+    "teaspoon": 2.0
+  },
+  "mayonnaise": {
+    "cup": 226.0,
+    "tablespoon": 14.1,
+    "teaspoon": 4.7
+  },
+  "medium rye flour": {
+    "cup": 106.0,
+    "tablespoon": 6.6,
+    "teaspoon": 2.2
+  },
+  "meringue powder": {
+    "cup": 172.0,
+    "tablespoon": 10.8,
+    "teaspoon": 3.6
+  },
+  "milk (evaporated)": {
+    "cup": 226.0,
+    "tablespoon": 14.1,
+    "teaspoon": 4.7
+  },
+  "milk (fresh)": {
+    "cup": 227.0,
+    "tablespoon": 14.2,
+    "teaspoon": 4.7
+  },
+  "millet (whole)": {
+    "cup": 206.0,
+    "tablespoon": 12.9,
+    "teaspoon": 4.3
+  },
+  "mini chocolate chips": {
+    "cup": 177.0,
+    "tablespoon": 11.1,
+    "teaspoon": 3.7
+  },
+  "mini diced ginger": {
+    "cup": 146.0,
+    "tablespoon": 9.1,
+    "teaspoon": 3.0
+  },
+  "molasses": {
+    "cup": 340.0,
+    "tablespoon": 21.2,
+    "teaspoon": 7.1
+  },
+  "mushrooms (sliced)": {
+    "cup": 78.0,
+    "tablespoon": 4.9,
+    "teaspoon": 1.6
+  },
+  "non-diastatic malt powder": {
+    "cup": 144.0,
+    "tablespoon": 9.0,
+    "teaspoon": 3.0
+  },
+  "nutella": {
+    "cup": 298.0,
+    "tablespoon": 18.6,
+    "teaspoon": 6.2
+  },
+  "oat bran": {
+    "cup": 106.0,
+    "tablespoon": 6.6,
+    "teaspoon": 2.2
+  },
+  "oat flour": {
+    "cup": 92.0,
+    "tablespoon": 5.8,
+    "teaspoon": 1.9
+  },
+  "oats (king arthur rolled)": {
+    "cup": 113.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "oats (old-fashioned or quick-cooking)": {
+    "cup": 89.0,
+    "tablespoon": 5.6,
+    "teaspoon": 1.9
+  },
+  "oats (prepared)": {
+    "cup": 147.0,
+    "tablespoon": 9.2,
+    "teaspoon": 3.1
+  },
+  "olive oil": {
+    "cup": 200.0,
+    "tablespoon": 12.5,
+    "teaspoon": 4.2
+  },
+  "olives (sliced)": {
+    "cup": 142.0,
+    "tablespoon": 8.9,
+    "teaspoon": 3.0
+  },
+  "onions (fresh diced)": {
+    "cup": 142.0,
+    "tablespoon": 8.9,
+    "teaspoon": 3.0
+  },
+  "paleo baking flour": {
+    "cup": 104.0,
+    "tablespoon": 6.5,
+    "teaspoon": 2.2
+  },
+  "palm shortening": {
+    "cup": 180.0,
+    "tablespoon": 11.2,
+    "teaspoon": 3.8
+  },
+  "passion fruit puree": {
+    "cup": 180.0,
+    "tablespoon": 11.2,
+    "teaspoon": 3.8
+  },
+  "pasta flour blend": {
+    "cup": 145.0,
+    "tablespoon": 9.1,
+    "teaspoon": 3.0
+  },
+  "pastry flour": {
+    "cup": 106.0,
+    "tablespoon": 6.6,
+    "teaspoon": 2.2
+  },
+  "pastry flour blend": {
+    "cup": 113.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "peaches (peeled and diced)": {
+    "cup": 170.0,
+    "tablespoon": 10.6,
+    "teaspoon": 3.5
+  },
+  "peanut butter": {
+    "cup": 270.0,
+    "tablespoon": 16.9,
+    "teaspoon": 5.6
+  },
+  "peanuts (whole shelled)": {
+    "cup": 142.0,
+    "tablespoon": 8.9,
+    "teaspoon": 3.0
+  },
+  "pears (peeled and diced)": {
+    "cup": 163.0,
+    "tablespoon": 10.2,
+    "teaspoon": 3.4
+  },
+  "pecan meal": {
+    "cup": 80.0,
+    "tablespoon": 5.0,
+    "teaspoon": 1.7
+  },
+  "pecans (diced)": {
+    "cup": 114.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "pecans (whole)": {
+    "cup": 105.0,
+    "tablespoon": 6.6,
+    "teaspoon": 2.2
+  },
+  "pie filling enhancer": {
+    "cup": 184.0,
+    "tablespoon": 11.5,
+    "teaspoon": 3.8
+  },
+  "pine nuts": {
+    "cup": 142.0,
+    "tablespoon": 8.9,
+    "teaspoon": 3.0
+  },
+  "pineapple (crushed drained)": {
+    "cup": 256.0,
+    "tablespoon": 16.0,
+    "teaspoon": 5.3
+  },
+  "pineapple (dried)": {
+    "cup": 142.0,
+    "tablespoon": 8.9,
+    "teaspoon": 3.0
+  },
+  "pineapple (fresh or canned diced)": {
+    "cup": 170.0,
+    "tablespoon": 10.6,
+    "teaspoon": 3.5
+  },
+  "pistachio nuts (shelled)": {
+    "cup": 120.0,
+    "tablespoon": 7.5,
+    "teaspoon": 2.5
+  },
+  "pistachio paste": {
+    "cup": 312.0,
+    "tablespoon": 19.5,
+    "teaspoon": 6.5
+  },
+  "pizza dough flavor": {
+    "cup": 96.0,
+    "tablespoon": 6.0,
+    "teaspoon": 2.0
+  },
+  "pizza flour blend": {
+    "cup": 124.0,
+    "tablespoon": 7.8,
+    "teaspoon": 2.6
+  },
+  "pizza sauce": {
+    "cup": 228.0,
+    "tablespoon": 14.2,
+    "teaspoon": 4.8
+  },
+  "pizza seasoning": {
+    "cup": 80.0,
+    "tablespoon": 5.0,
+    "teaspoon": 1.7
+  },
+  "polenta (coarse ground cornmeal)": {
+    "cup": 163.0,
+    "tablespoon": 10.2,
+    "teaspoon": 3.4
+  },
+  "poppy seeds": {
+    "cup": 144.0,
+    "tablespoon": 9.0,
+    "teaspoon": 3.0
+  },
+  "potato flour": {
+    "cup": 184.0,
+    "tablespoon": 11.5,
+    "teaspoon": 3.8
+  },
+  "potato starch": {
+    "cup": 152.0,
+    "tablespoon": 9.5,
+    "teaspoon": 3.2
+  },
+  "pumpernickel flour": {
+    "cup": 106.0,
+    "tablespoon": 6.6,
+    "teaspoon": 2.2
+  },
+  "pumpkin puree": {
+    "cup": 227.0,
+    "tablespoon": 14.2,
+    "teaspoon": 4.7
+  },
+  "pumpkin seeds": {
+    "cup": 160.0,
+    "tablespoon": 10.0,
+    "teaspoon": 3.3
+  },
+  "queso fresco": {
+    "cup": 114.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "quinoa (cooked)": {
+    "cup": 184.0,
+    "tablespoon": 11.5,
+    "teaspoon": 3.8
+  },
+  "quinoa (whole)": {
+    "cup": 177.0,
+    "tablespoon": 11.1,
+    "teaspoon": 3.7
+  },
+  "quinoa flour": {
+    "cup": 110.0,
+    "tablespoon": 6.9,
+    "teaspoon": 2.3
+  },
+  "raisins (loose)": {
+    "cup": 149.0,
+    "tablespoon": 9.3,
+    "teaspoon": 3.1
+  },
+  "raisins (packed)": {
+    "cup": 170.0,
+    "tablespoon": 10.6,
+    "teaspoon": 3.5
+  },
+  "raspberries (fresh)": {
+    "cup": 120.0,
+    "tablespoon": 7.5,
+    "teaspoon": 2.5
+  },
+  "rhubarb (sliced)": {
+    "cup": 130.0,
+    "tablespoon": 8.1,
+    "teaspoon": 2.7
+  },
+  "rice (long grain dry)": {
+    "cup": 198.0,
+    "tablespoon": 12.4,
+    "teaspoon": 4.1
+  },
+  "rice flour (white)": {
+    "cup": 142.0,
+    "tablespoon": 8.9,
+    "teaspoon": 3.0
+  },
+  "rice krispies": {
+    "cup": 28.0,
+    "tablespoon": 1.8,
+    "teaspoon": 0.6
+  },
+  "rye bread improver": {
+    "cup": 112.0,
+    "tablespoon": 7.0,
+    "teaspoon": 2.3
+  },
+  "rye chops": {
+    "cup": 120.0,
+    "tablespoon": 7.5,
+    "teaspoon": 2.5
+  },
+  "rye flakes": {
+    "cup": 124.0,
+    "tablespoon": 7.8,
+    "teaspoon": 2.6
+  },
+  "rye flour blend": {
+    "cup": 106.0,
+    "tablespoon": 6.6,
+    "teaspoon": 2.2
+  },
+  "salt (kosher diamond crystal)": {
+    "cup": 128.0,
+    "tablespoon": 8.0,
+    "teaspoon": 2.7
+  },
+  "salt (kosher morton's)": {
+    "cup": 256.0,
+    "tablespoon": 16.0,
+    "teaspoon": 5.3
+  },
+  "salt (table)": {
+    "cup": 288.0,
+    "tablespoon": 18.0,
+    "teaspoon": 6.0
+  },
+  "scallions (sliced)": {
+    "cup": 64.0,
+    "tablespoon": 4.0,
+    "teaspoon": 1.3
+  },
+  "self-rising flour": {
+    "cup": 113.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "semolina flour": {
+    "cup": 163.0,
+    "tablespoon": 10.2,
+    "teaspoon": 3.4
+  },
+  "sesame seeds": {
+    "cup": 142.0,
+    "tablespoon": 8.9,
+    "teaspoon": 3.0
+  },
+  "shallots (peeled and sliced)": {
+    "cup": 156.0,
+    "tablespoon": 9.8,
+    "teaspoon": 3.2
+  },
+  "six-grain blend": {
+    "cup": 128.0,
+    "tablespoon": 8.0,
+    "teaspoon": 2.7
+  },
+  "snow white non-melting topping sugar": {
+    "cup": 114.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "sorghum flour": {
+    "cup": 138.0,
+    "tablespoon": 8.6,
+    "teaspoon": 2.9
+  },
+  "sour cream": {
+    "cup": 227.0,
+    "tablespoon": 14.2,
+    "teaspoon": 4.7
+  },
+  "sourdough starter": {
+    "cup": 234.0,
+    "tablespoon": 14.6,
+    "teaspoon": 4.9
+  },
+  "soy flour": {
+    "cup": 140.0,
+    "tablespoon": 8.8,
+    "teaspoon": 2.9
+  },
+  "sparkling sugar": {
+    "cup": 228.0,
+    "tablespoon": 14.2,
+    "teaspoon": 4.8
+  },
+  "spelt flour": {
+    "cup": 99.0,
+    "tablespoon": 6.2,
+    "teaspoon": 2.1
+  },
+  "sprouted wheat flour": {
+    "cup": 113.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "steel cut oats": {
+    "cup": 140.0,
+    "tablespoon": 8.8,
+    "teaspoon": 2.9
+  },
+  "sticky bun sugar": {
+    "cup": 99.0,
+    "tablespoon": 6.2,
+    "teaspoon": 2.1
+  },
+  "strawberries (fresh sliced)": {
+    "cup": 167.0,
+    "tablespoon": 10.4,
+    "teaspoon": 3.5
+  },
+  "sugar (granulated white)": {
+    "cup": 198.0,
+    "tablespoon": 12.4,
+    "teaspoon": 4.1
+  },
+  "sugar substitute (splenda)": {
+    "cup": 25.0,
+    "tablespoon": 1.6,
+    "teaspoon": 0.5
+  },
+  "sundried tomatoes (dry pack)": {
+    "cup": 170.0,
+    "tablespoon": 10.6,
+    "teaspoon": 3.5
+  },
+  "sunflower seeds": {
+    "cup": 140.0,
+    "tablespoon": 8.8,
+    "teaspoon": 2.9
+  },
+  "super 10 blend": {
+    "cup": 106.0,
+    "tablespoon": 6.6,
+    "teaspoon": 2.2
+  },
+  "swedish pearl sugar": {
+    "cup": 196.0,
+    "tablespoon": 12.2,
+    "teaspoon": 4.1
+  },
+  "sweetened condensed coconut milk": {
+    "cup": 288.0,
+    "tablespoon": 18.0,
+    "teaspoon": 6.0
+  },
+  "sweetened condensed milk": {
+    "cup": 312.0,
+    "tablespoon": 19.5,
+    "teaspoon": 6.5
+  },
+  "tahini paste": {
+    "cup": 256.0,
+    "tablespoon": 16.0,
+    "teaspoon": 5.3
+  },
+  "tapioca (quick cooking)": {
+    "cup": 168.0,
+    "tablespoon": 10.5,
+    "teaspoon": 3.5
+  },
+  "tapioca starch or flour": {
+    "cup": 113.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "tef flour": {
+    "cup": 135.0,
+    "tablespoon": 8.4,
+    "teaspoon": 2.8
+  },
+  "the works bread topping": {
+    "cup": 140.0,
+    "tablespoon": 8.8,
+    "teaspoon": 2.9
+  },
+  "toasted almond flour": {
+    "cup": 96.0,
+    "tablespoon": 6.0,
+    "teaspoon": 2.0
+  },
+  "toffee chunks": {
+    "cup": 156.0,
+    "tablespoon": 9.8,
+    "teaspoon": 3.2
+  },
+  "tomato paste": {
+    "cup": 232.0,
+    "tablespoon": 14.5,
+    "teaspoon": 4.8
+  },
+  "tropical fruit blend": {
+    "cup": 135.0,
+    "tablespoon": 8.4,
+    "teaspoon": 2.8
+  },
+  "turbinado sugar (raw)": {
+    "cup": 180.0,
+    "tablespoon": 11.2,
+    "teaspoon": 3.8
+  },
+  "unbleached cake flour": {
+    "cup": 120.0,
+    "tablespoon": 7.5,
+    "teaspoon": 2.5
+  },
+  "vanilla extract": {
+    "cup": 224.0,
+    "tablespoon": 14.0,
+    "teaspoon": 4.7
+  },
+  "vegetable oil": {
+    "cup": 198.0,
+    "tablespoon": 12.4,
+    "teaspoon": 4.1
+  },
+  "vegetable shortening": {
+    "cup": 184.0,
+    "tablespoon": 11.5,
+    "teaspoon": 3.8
+  },
+  "vital wheat gluten": {
+    "cup": 144.0,
+    "tablespoon": 9.0,
+    "teaspoon": 3.0
+  },
+  "walnuts (chopped)": {
+    "cup": 113.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "walnuts (whole)": {
+    "cup": 128.0,
+    "tablespoon": 8.0,
+    "teaspoon": 2.7
+  },
+  "water": {
+    "cup": 227.0,
+    "tablespoon": 14.2,
+    "teaspoon": 4.7
+  },
+  "wheat berries (red)": {
+    "cup": 184.0,
+    "tablespoon": 11.5,
+    "teaspoon": 3.8
+  },
+  "wheat bran": {
+    "cup": 64.0,
+    "tablespoon": 4.0,
+    "teaspoon": 1.3
+  },
+  "wheat germ": {
+    "cup": 112.0,
+    "tablespoon": 7.0,
+    "teaspoon": 2.3
+  },
+  "white chocolate chips": {
+    "cup": 170.0,
+    "tablespoon": 10.6,
+    "teaspoon": 3.5
+  },
+  "white rye flour": {
+    "cup": 106.0,
+    "tablespoon": 6.6,
+    "teaspoon": 2.2
+  },
+  "whole grain flour blend": {
+    "cup": 113.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "whole wheat flour (premium 100%)": {
+    "cup": 113.0,
+    "tablespoon": 7.1,
+    "teaspoon": 2.4
+  },
+  "whole wheat pastry flour / graham flour": {
+    "cup": 96.0,
+    "tablespoon": 6.0,
+    "teaspoon": 2.0
+  },
+  "yeast (instant)": {
+    "cup": 144.0,
+    "tablespoon": 9.0,
+    "teaspoon": 3.0
+  },
+  "yogurt": {
+    "cup": 227.0,
+    "tablespoon": 14.2,
+    "teaspoon": 4.7
+  },
+  "yuletide cheer fruit blend": {
+    "cup": 130.0,
+    "tablespoon": 8.1,
+    "teaspoon": 2.7
+  },
+  "zucchini (shredded)": {
+    "cup": 135.5,
+    "tablespoon": 8.5,
+    "teaspoon": 2.8
+  }
 }
