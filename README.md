@@ -38,13 +38,61 @@ Uses the King Arthur Baking ingredient database with ~325 items. Each entry incl
 
 ## Technical Architecture
 
+### Tech Stack
+
+**Backend**: FastAPI (async, high performance)
+- Tesseract OCR (free, open-source, no API costs)
+- Pydantic for schema validation
+- Pillow for image processing
+- PyPDF2 for PDF text extraction
+
+**Frontend**: Vanilla HTML/CSS/JS (minimal, fast)
+- Single-page upload interface
+- No build tools or dependencies
+- Client-side form handling + async fetch
+
+**Deployment**: Render (free tier)
+- Single Python web service
+- Efficient resource usage
+- Cold start optimized
+
 ### Design Decisions
 
 - **HTML/CSS output** instead of PDF generation — easier to iterate on layout and typography
 - **Self-contained** (no external assets except fonts) — single file to download/email
 - **No JavaScript in output** — plain HTML + CSS, works offline after first load
-- **Python backend** for ingest → conversion → render pipeline
-- **Canvas resizing** for images before API calls (keep payload under ~400KB)
+- **FastAPI backend** for high-performance async processing
+- **Tesseract OCR** (free, no API calls)
+- **Lightweight frontend** (no frameworks, vanilla JS)
+- **Image optimization** before processing (Pillow resizing to reduce payload)
+
+## Project Structure
+
+```
+sift/
+├── backend/
+│   ├── main.py                 # FastAPI app
+│   ├── recipe_parser.py        # Extract recipe from screenshot/PDF/text
+│   ├── weight_converter.py      # Convert volumes to grams
+│   ├── html_renderer.py        # Generate self-contained HTML
+│   ├── image_handler.py        # Optimize images with Pillow
+│   └── schemas.py              # Pydantic models
+├── data/
+│   └── weight_chart.json       # King Arthur Baking DB (~325 items)
+├── frontend/
+│   ├── index.html              # Upload/paste UI
+│   ├── style.css               # Print-friendly styles
+│   └── script.js               # Form handling + fetch API
+├── tests/
+│   ├── test_parser.py
+│   ├── test_converter.py
+│   └── fixtures/               # Sample recipes & expected outputs
+├── requirements.txt            # Python dependencies
+├── .gitignore
+├── Dockerfile                  # Render deployment
+├── render.yaml                 # Render configuration
+└── README.md
+```
 
 ## Getting Started
 
