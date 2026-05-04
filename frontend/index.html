@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sift — Recipe Reformatter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Sift</h1>
+      <p class="tagline">Transform any recipe into a beautiful, color-coded card</p>
+    </header>
+
+    <main>
+      <div class="tabs" role="tablist">
+        <button class="tab active" data-tab="text" role="tab">Paste Text</button>
+        <button class="tab" data-tab="image" role="tab">Upload Image</button>
+        <button class="tab" data-tab="pdf" role="tab">Upload PDF</button>
+      </div>
+
+      <form id="recipe-form" novalidate>
+        <div class="tab-panel active" id="panel-text">
+          <textarea name="text" placeholder="Paste your recipe here…" rows="12" spellcheck="false"></textarea>
+        </div>
+
+        <div class="tab-panel" id="panel-image">
+          <label class="upload-area" id="image-label">
+            <input type="file" name="image" accept="image/*" id="image-input">
+            <span class="upload-icon">🖼</span>
+            <span class="upload-hint">Drop an image or click to browse</span>
+            <span class="upload-filename" id="image-filename"></span>
+          </label>
+        </div>
+
+        <div class="tab-panel" id="panel-pdf">
+          <label class="upload-area" id="pdf-label">
+            <input type="file" name="pdf" accept=".pdf" id="pdf-input">
+            <span class="upload-icon">📄</span>
+            <span class="upload-hint">Drop a PDF or click to browse</span>
+            <span class="upload-filename" id="pdf-filename"></span>
+          </label>
+        </div>
+
+        <button type="submit" id="submit-btn">Format Recipe</button>
+      </form>
+
+      <div id="result" class="hidden">
+        <p class="result-msg">Your recipe card is ready.</p>
+        <a id="download-link" href="#" download>Download HTML</a>
+        <span class="sep">·</span>
+        <a id="preview-link" href="#" target="_blank">Open in browser</a>
+      </div>
+
+      <div id="error" class="hidden">
+        <p id="error-msg"></p>
+      </div>
+
+      <div id="loading" class="hidden">
+        <div class="spinner"></div>
+        <p>Formatting your recipe…</p>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
